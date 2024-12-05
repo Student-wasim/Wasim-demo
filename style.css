@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+.upper{
+  height: 5%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 30px;
+  color: #fff;
+}
+.upper img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+.upper h1{
+  font-size: 20px;
+  
+}
+.upper h4{
+  font-size: 13px;
+}
+.middle{
+  height: 90%;
+  width: 100%;
+  background-color: navajowhite;
+  padding: 0 30px;
+  padding-top: 50px;
+}
+.middle .songBigImage{
+  height: 600px;
+  width: 550px;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  
+}
+.middle img{
+  height: 50px;
+  width: 50px;
+ 
+  border-radius: 50px;
+}
+.songItems{
+  height: 40%;
+  width: 100%;
+  border-radius: 20px;
+  background-image: url("/sptify clone/istockphoto-1067581862-612x612.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding: 0 30px;
+  padding-top: 10px;
+  
+}
+.h1{
+  color: red;
+  font-size: 200px;
+  
+}
+.songs{
+  width: 50%; 
+  height: auto;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  color: black;
+  margin-top: 10px
+}
+.bottom{
+  height: 5%;
+  width: 100%;
+  background-color: green;
+  
+}
+.player{
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#range{
+  padding-right: 100px;
+  width: 80%;
+}
